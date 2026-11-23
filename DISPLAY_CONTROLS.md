@@ -23,6 +23,6 @@ python build_display_controls.py
 python verify_display_controls.py
 ```
 
-The candidate SHA-256 is `e3ed998c7457fd15649543c882145778aad77c4f5d9e35734eb0a5d73bd0b553`. Tests exercise the original and modified key dispatch, GIF advance and rotation, typing settings, RGB blackout and restoration, and LCD transitions around USB suspend, storage mode, and an active frame transfer. USB, physical OLED/LCD output, GPIO and LED output were not tested on a board for this build.
+The candidate SHA-256 is `e3ed998c7457fd15649543c882145778aad77c4f5d9e35734eb0a5d73bd0b553`. Tests exercise the original and modified key dispatch, GIF advance and rotation, typing settings, RGB blackout and restoration, and LCD transitions around USB suspend, storage mode, and an active frame transfer. After flashing this exact image, the owner confirmed that all three blackout shortcuts turned the intended hardware off and back on, Fn + F7 enabled automatic GIF rotation, and Fn + F8 displayed typed characters.
 
 The previous Next GIF UF2 remains the rollback image for this build if the bootloader is accessible. Hardware recovery on a non-booting board is still unverified.
