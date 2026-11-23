@@ -4,6 +4,8 @@ This binary patch adds manual LCD animation switching to the Carnival TKL runnin
 
 This patch targets the standard Carnival TKL v5 firmware. Matrix Lab lists separate firmware for the Carnival TKL RGB and AUX boards. [Matrix Lab firmware downloads](https://docs.iatkb.com/gao-su-di-yan-shi-pcb2.html)
 
+See [Experimental v5 display controls](DISPLAY_CONTROLS.md) for the follow-up build with typing, rotation, and blackout shortcuts.
+
 ## Files
 
 | File | Purpose |
