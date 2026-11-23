@@ -4,7 +4,7 @@ This binary patch adds manual LCD animation switching to the Carnival TKL runnin
 
 This patch targets the standard Carnival TKL v5 firmware. Matrix Lab lists separate firmware for the Carnival TKL RGB and AUX boards. [Matrix Lab firmware downloads](https://docs.iatkb.com/gao-su-di-yan-shi-pcb2.html)
 
-See [Experimental v5 display controls](DISPLAY_CONTROLS.md) for the follow-up build with typing, rotation, and blackout shortcuts.
+The current [v5 Display Controls build](DISPLAY_CONTROLS.md) adds typing, rotation, and blackout shortcuts. The [current keymap](Carnival-TKL-Display-Controls.vil) can be loaded through **File → Load a saved layout** in Matrix Lab Vial. It includes the four layers, layout options, and macro trigger keys. The macro text stays on your keyboard. See [AGENTS.md](AGENTS.md) for the build and recovery handoff.
 
 ## Files
 
